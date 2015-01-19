@@ -1,0 +1,30 @@
+{
+  "name": "parse-ssh-config",
+  "version": "0.0.0",
+  "description": "a robust, streaming ssh config parser",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:michaelrhodes/parse-ssh-config.git"
+  },
+  "keywords": [
+    "ssh",
+    "config",
+    "parse",
+    "stream"
+  ],
+  "author": "Michael Rhodes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/michaelrhodes/parse-ssh-config/issues"
+  },
+  "homepage": "https://github.com/michaelrhodes/parse-ssh-config",
+  "dependencies": {
+    "split2": "~0.2.1",
+    "stream-combiner2": "~1.0.2",
+    "through2": "~0.6.3"
+  }
+}
