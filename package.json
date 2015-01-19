@@ -1,6 +1,6 @@
 {
   "name": "sshconf",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a robust, streaming ssh config parser",
   "main": "index.js",
   "scripts": {
