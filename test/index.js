@@ -3,7 +3,7 @@ var path = require('path')
 var test = require('tape')
 var through = require('through2')
 var splice = require('stream-splicer')
-var parse = require('../')
+var parse = require('../parse')
 var merge = require('../merge')
 
 var configs = [
