@@ -5,7 +5,7 @@ var through = require('through2')
 var blank = /^\s*$/
 var comment = /^#/
 var array = /,/
-var numberish = /^[0-9\.\-\+e]+[0-9]$/
+var numberish = /^[0-9\.\-\+e]*[0-9]$/
 var bool = /^(true|false)$/
 var kvp = /^([^\s]+)\s+(.+)$/
 
