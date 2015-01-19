@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:michaelrhodes/parse-ssh-config.git"
+    "url": "git@github.com:michaelrhodes/sshconf.git"
   },
   "keywords": [
     "ssh",
@@ -19,9 +19,9 @@
   "author": "Michael Rhodes",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/michaelrhodes/parse-ssh-config/issues"
+    "url": "https://github.com/michaelrhodes/sshconf/issues"
   },
-  "homepage": "https://github.com/michaelrhodes/parse-ssh-config",
+  "homepage": "https://github.com/michaelrhodes/sshconf",
   "dependencies": {
     "split2": "~0.2.1",
     "stream-combiner2": "~1.0.2",
