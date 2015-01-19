@@ -4,6 +4,7 @@ var through = require('through2')
 
 var blank = /^\s*$/
 var comment = /^#/
+var array = /,/
 var numberish = /^[0-9\.\-\+e]+[0-9]$/
 var bool = /^(true|false)$/
 var kvp = /^([^\s]+)\s+(.+)$/
@@ -61,6 +62,10 @@ module.exports = function () {
 }
 
 function coerce (value) {
+  if (array.test(value)) {
+    return value.split(array).map(coerce)
+  }
+
   return (
     numberish.test(value) &&
     !isNaN(Number(value)) ?
