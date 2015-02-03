@@ -1,7 +1,7 @@
 # sshconf
 sshconf is a robust, streaming ssh config parser.
 
-[![Build status](https://travis-ci.org/michaelrhodes/sshconf.png?branch=master)](https://travis-ci.org/michaelrhodes/sshconf)
+[![Build status](https://travis-ci.org/michaelrhodes/sshconf.svg?branch=master)](https://travis-ci.org/michaelrhodes/sshconf)
 
 ## Install
 ``` sh
