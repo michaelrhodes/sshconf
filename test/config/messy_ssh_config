@@ -1,5 +1,5 @@
      
-          Host *
+          Host some       big    spaces *
    SendEnv LANG LC_*
  ForwardAgent no
    ForwardX11 yes
