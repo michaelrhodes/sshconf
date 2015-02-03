@@ -1,4 +1,4 @@
- Host *
+ Host multiple patterns *
    SendEnv LANG LC_*
    ForwardAgent no
    ForwardX11 yes

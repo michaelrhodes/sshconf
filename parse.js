@@ -1,6 +1,7 @@
 var combine = require('stream-combiner2')
 var split = require('split2')
 var through = require('through2')
+var collapse = require('collapse-array')
 
 var blank = /^\s*$/
 var comment = /^#/
@@ -35,6 +36,7 @@ module.exports = function () {
       dump.call(this)
       host = {}
       inHostBlock = true
+      value = collapse(value.split(/\s/))
     }
 
     if (inHostBlock) {
